@@ -1,0 +1,42 @@
+{
+  "tests": [
+    {
+      "data": {
+        "actions": [
+          "checkin",
+          "checkin",
+          "checkin",
+          "checkout",
+          "checkout",
+          "checkout",
+          "get_avg_time",
+          "get_avg_time",
+          "checkin",
+          "get_avg_time",
+          "checkout",
+          "get_avg_time"
+        ],
+        "args": [
+          [45,"Leyton",3],
+          [32,"Paradise",8],
+          [27,"Leyton",10],
+          [45,"Waterloo",15],
+          [27,"Waterloo",20],
+          [32,"Cambridge",22],
+          ["Paradise","Cambridge"],
+          ["Leyton","Waterloo"],
+          [10,"Leyton",24],
+          ["Leyton","Waterloo"],
+          [10,"Waterloo",38],
+          ["Leyton","Waterloo"]
+        ]
+      },
+      "answer": [
+        14.00,
+        11.00,
+        11.00,
+        12.00
+      ]
+    }
+  ]
+}
