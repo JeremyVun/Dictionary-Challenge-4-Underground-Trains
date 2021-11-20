@@ -33,25 +33,7 @@ Correct outputs from get_avg_time:
   ]
 """
 
-# Implement me!
-class UndergroundSystem:
-  # Constructor
-  def __init__(self):
-    pass
-
-  # check in the passenger to the station at specified time
-  def checkin(self, id, station, time):
-    pass
-
-  # check out the passenger from station
-  def checkout(self, id, station, time):
-    pass
-
-  # Returns the average time it takes to travel between two stations
-  def get_avg_time(self, start_station, end_station):
-    pass
-
-
+from solution import UndergroundSystem
 
 
 ########
