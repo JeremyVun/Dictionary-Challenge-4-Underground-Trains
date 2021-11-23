@@ -42,4 +42,4 @@ from solution import UndergroundSystem
 from tests.runner import run_tests
 
 if __name__ == "__main__":
-  run_tests(UndergroundSystem())
+  run_tests(UndergroundSystem)
