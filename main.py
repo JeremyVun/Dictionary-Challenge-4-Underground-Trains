@@ -57,7 +57,7 @@ class UndergroundSystem:
 ########
 # This code wil run your solution against a bunch of test cases
 ########
-from tests.runner import run
+from tests.runner import run_tests
 
 if __name__ == "__main__":
-  run(UndergroundSystem())
+  run_tests(UndergroundSystem)
